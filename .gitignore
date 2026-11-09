@@ -1,57 +1,49 @@
-# ==========================
-# Python
-# ==========================
-
-# Python 缓存
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Python 虚拟环境
-venv/
+# Virtual environments
 .venv/
+venv/
 env/
 
-# ==========================
-# PyCharm
-# ==========================
-
-python/.idea/
-
-# ==========================
-# VS Code
-# ==========================
-
+# IDE
+.idea/
 .vscode/
 
-# ==========================
-# 系统文件
-# ==========================
-
+# System
 .DS_Store
 Thumbs.db
 
-# ==========================
-# 日志文件
-# ==========================
-
+# Logs
 *.log
 *.log.*
+*.app
+
+# Temporary files
 *.tmp
+*.swp
+*.swo
 
-# ==========================
-# Python 打包
-# ==========================
-
+# Build artifacts
 build/
 dist/
 *.egg-info/
 
-# ==========================
-# 测试缓存
-# ==========================
-
+# Test and type-check caches
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
 .coverage
 htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Local configuration
+local_settings.py
